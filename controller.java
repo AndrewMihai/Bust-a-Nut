@@ -85,7 +85,7 @@ public class controller implements Initializable {
     private void loadData() {
         oblist.clear();
         String[] words = {"b", "bills", "blaze", "Brougham", "brrt", "burner", "bushes", "bust", "burst",
-                "clock a grip", "cop", "crucial", "cut", "g", "gang!", "gram", "hard", "hard in the paint", "hit",
+                "clock a grip", "cop", "crucial", "cut", "g", "gang!", "gram", "hard", "hit",
                 "lib", "Ms", "pack", "purp", "reg", "straight up", "trees", "whip", "wrong blunt", "9"};
         oblist.addAll(words);
         levelList.setItems(filteredWords);
